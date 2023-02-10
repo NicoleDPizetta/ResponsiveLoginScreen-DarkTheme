@@ -6,16 +6,16 @@ EN: This is a study project made following the [video from the Markzuel channel]
 
 ## 🧶 Screenshots
 #### Desktop 
-![](./screenshots/desktop.png) 
+![](./assets/desktop-preview.gif) 
 
 #### Mobile - iPhoneSE
-![](./screenshots/mobile-iPhoneSE.png) 
+![](./assets/iPhoneSE-preview.gif) 
 
 #### Mobile - Samsung S20 Ultra
-![](./screenshots/mobile-SamsungS20Ultra.png)
+![](./assets/SamsungS20Ultra-preview.gif)
 
 ## 🧶 Preview site
-[Clique aqui | Click here](https://nicoledpizetta.github.io/qr-code-component-FrontendMentor-challenge/)
+[Clique aqui | Click here](#)
 
 ## 🧶 Tecnologias usadas | Technologies used
 - Semantic HTML5 markup
