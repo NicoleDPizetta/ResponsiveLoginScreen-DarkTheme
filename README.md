@@ -1,4 +1,4 @@
-# QR code component solution - Frontend Mentor Challenge
+# 🧶  Responsive Login Screen - Dark Theme
 
 BR: Este é um projeto de estudo feito acompanhando o [vídeo do canal Markzuel](https://youtu.be/69-WfrVBli8) feito por [@lexmarcos](https://github.com/lexmarcos).
 
