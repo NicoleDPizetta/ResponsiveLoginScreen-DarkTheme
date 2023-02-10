@@ -15,7 +15,7 @@ EN: This is a study project made following the [video from the Markzuel channel]
 ![](./assets/SamsungS20Ultra-preview.gif)
 
 ## 🧶 Preview site
-[Clique aqui | Click here](https://nicoledpizetta.github.io/LoginScreen-DarkTheme/)
+[Clique aqui | Click here](https://nicoledpizetta.github.io/ResponsiveLoginScreen-DarkTheme/)
 
 ## 🧶 Tecnologias usadas | Technologies used
 - Semantic HTML5 markup
