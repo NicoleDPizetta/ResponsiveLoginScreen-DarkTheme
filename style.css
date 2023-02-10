@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-bg: #201b2c;
+    --color-destaque: #00ff88;
+    --color-card: #302942;
+    --color-shadow: #00000056;
+    --color-light: #f0ffffde;
+}
+
+body {
+    background-color: hsl(258, 24%, 14%);
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-div {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-div h1 {
+    font-size: 3vw;
+    color: var(--color-destaque);
+    margin-bottom: 30px;
+}
+
+.animation {
+    width: 35vw;
+}
+
+.right-div {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 35px;
+    background: var(--color-card);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px var(--color-shadow);
+}
+
+.login-card h1 {
+    color: var(--color-destaque);
+    font-weight: 800;
+    margin: 0;
+}
+
+.text-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.text-field input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #51486a;
+    color: var(--color-light);
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px var(--color-shadow);
+    outline: none;
+    box-sizing: border-box;
+}
+
+.text-field label {
+    color: var(--color-light);
+    margin-bottom: 10px;
+}
+
+.text-field input::placeholder {
+    color: hsla(180, 100%, 97%, 0.58);
+}
+
+.button-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: hsl(266, 60%, 18%);
+    background-color: var(--color-destaque);
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00FF8052;
+}
+
+.button-login:hover {
+    box-shadow: 0px 10px 50px -12px #00ff88;
+}
+
+
+@media only screen and (max-width: 950px) {
+    .login-card {
+        width: 85%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+
+    .left-div h1 {
+        display: none;
+    }
+
+    .left-div {
+        width: 100%;
+        height: auto;
+    }
+
+    .left-div img {
+        width: 60vw;
+    }
+
+    .right-div {
+        width: 100%;
+    }
+
+    .login-card {
+        width: 90%;
+    }
+}
